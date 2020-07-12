@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Codeskull</Authors>
+    <Copyright>OnSharp_Doors for OnSet by Codeskull (Sheiyla)</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Onsharp">
+      <HintPath>..\..\OnsharpTeam\api\Onsharp\bin\Debug\netcoreapp3.1\Onsharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
