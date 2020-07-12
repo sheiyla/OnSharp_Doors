@@ -39,6 +39,8 @@ namespace OnSharp_Doors
 			Server.CreateDoor(25, new Vector(128690.000000, 78965.000000, 1480.000000), 90.0, true); // Desert Gas Station Restroom
 			Server.CreateDoor(3, new Vector(129315.000000, 79120.000000, 1478.000000), 0.0, true); // Desert Gas Station Back Door
 			Server.CreateDoor(30, new Vector(129401.968750, 75810.203125, 1473.000000), 182.0, true); // Desert Gas Station Gas Tanks
+			Server.CreateDoor(31, new Vector(-168700.000000, -38920.000000, 1051.000000), 0.0, true); // Front sliding door gas station town
+			Server.CreateDoor(3, new Vector(-169403.000000, -39609.000000, 1051.000000), -90.0, true); // Back door gas station town
 
 		}
 
