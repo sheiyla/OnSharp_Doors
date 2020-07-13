@@ -1,4 +1,4 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 namespace OnSharp_Doors
@@ -7,8 +7,7 @@ namespace OnSharp_Doors
 	public class Storage : OnSharp_Doors
 	{
 
-		[ServerEvent(EventType.PackageStart)]
-		public void OnStorage()
+		public static void OnStorage(IServer Server)
 		{
 
 			// Big Desert Storage Hall #1 Rolldoors and entry doors

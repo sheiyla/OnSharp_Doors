@@ -1,4 +1,4 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 namespace OnSharp_Doors
@@ -7,8 +7,7 @@ namespace OnSharp_Doors
 	public class Bank : OnSharp_Doors
 	{
 
-		[ServerEvent(EventType.PackageStart)]
-		public void OnBank()
+		public static void OnBank(IServer Server)
 		{
 
 			// IWB Bank Branch

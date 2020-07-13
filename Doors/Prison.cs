@@ -1,4 +1,4 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 
@@ -8,8 +8,7 @@ namespace OnSharp_Doors
     public class Prison : OnSharp_Doors
 	{
 
-		[ServerEvent(EventType.PackageStart)]
-		public void OnPrison()
+		public static void OnPrison(IServer Server)
 		{
 
 			// START PRISON GATES

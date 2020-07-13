@@ -1,4 +1,4 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 namespace OnSharp_Doors
@@ -7,8 +7,7 @@ namespace OnSharp_Doors
 	public class Hospital : OnSharp_Doors
 	{
 
-		[ServerEvent(EventType.PackageStart)]
-		public void OnHospital()
+		public static void OnHospital(IServer Server)
 		{
 
 			// City Hospital Interior Part 1

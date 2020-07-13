@@ -1,4 +1,4 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 namespace OnSharp_Doors
@@ -7,8 +7,7 @@ namespace OnSharp_Doors
 	public class Parking : OnSharp_Doors
 	{
 
-		[ServerEvent(EventType.PackageStart)]
-		public void OnParking() 
+		public static void OnParking(IServer Server)
 		{
 
 			// City Underground Parking

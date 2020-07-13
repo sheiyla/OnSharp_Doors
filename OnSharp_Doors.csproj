@@ -7,10 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Onsharp">
-      <HintPath>..\..\OnsharpTeam\api\Onsharp\bin\Debug\netcoreapp3.1\Onsharp.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+    <PackageReference Include="Onsharp" Version="1.0.4" />
   </ItemGroup>
 
 </Project>

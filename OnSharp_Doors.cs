@@ -9,7 +9,29 @@ namespace OnSharp_Doors
     public class OnSharp_Doors : Plugin
     {
 
-        public override void OnStart() { }
+        public override void OnStart() 
+        {
+            Armed.OnArmed(Server);
+            Bank.OnBank(Server);
+            CockInBell.OnCockInBell(Server);
+            Garage.OnGarage(Server);
+            GasStation.OnGasStation(Server);
+            Hospital.OnHospital(Server);
+            House.OnHouse(Server);
+            Motel.OnMotel(Server);
+            OldTown.OnOldTown(Server);
+            Other.OnOther(Server);
+            Parking.OnParking(Server);
+            Police.OnPolice(Server);
+            Prison.OnPrison(Server);
+            Pub.OnPub(Server);
+            RadioTower.OnRadioTower(Server);
+            Shooting.OnShooting(Server);
+            Storage.OnStorage(Server);
+            Store.OnStore(Server);
+            WallStar.OnWallStar(Server);
+        }
+
         public override void OnStop() { }
 
         [ServerEvent(EventType.PackageStop)]

@@ -1,4 +1,4 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 namespace OnSharp_Doors
@@ -7,9 +7,8 @@ namespace OnSharp_Doors
     public class Police : OnSharp_Doors
 	{
 
-        [ServerEvent(EventType.PackageStart)]
-        public void OnPolice()
-        {
+		public static void OnPolice(IServer Server)
+		{
 
 			// PD Front Entrance
 			Server.CreateDoor(82, new Vector(170628.875000, 194640.906250, 1298.960938), 90.0, true);

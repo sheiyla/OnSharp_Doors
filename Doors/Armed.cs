@@ -1,14 +1,13 @@
-﻿using Onsharp.Events;
+﻿using Onsharp;
 using Onsharp.World;
 
 namespace OnSharp_Doors
 {
-
-	public class Armed : OnSharp_Doors
+	
+	public class Armed
 	{
 
-		[ServerEvent(EventType.PackageStart)]
-		public void OnArmed()
+		public static void OnArmed(IServer Server)
 		{
 
 			// City Armed & Dangerous
