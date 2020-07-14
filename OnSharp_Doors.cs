@@ -32,10 +32,7 @@ namespace OnSharp_Doors
             WallStar.OnWallStar(Server);
         }
 
-        public override void OnStop() { }
-
-        [ServerEvent(EventType.PackageStop)]
-        public void OnPackageStop()
+        public override void OnStop() 
         {
             foreach (var door in Server.Doors)
                 door.Destroy();

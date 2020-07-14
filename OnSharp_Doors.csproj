@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Onsharp" Version="1.0.4" />
+    <PackageReference Include="Onsharp" Version="1.0.5" />
   </ItemGroup>
 
 </Project>
