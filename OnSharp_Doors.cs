@@ -42,8 +42,7 @@ namespace OnSharp_Doors
         public void OnPlayerInteractDoor(Player player, Door door, bool isBeingOpened)
         {
             if (player.IsValid)
-                if (!isBeingOpened) door.IsOpen = false;
-                if (isBeingOpened) door.IsOpen = true;
+                isBeingOpened ? door.IsOpen = true : door.IsOpen = false;
         }
 
     }
